@@ -12,7 +12,12 @@
 
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-spring-context</artifactId>
+            <version>2.1.2-beta</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>

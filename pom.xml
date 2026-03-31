@@ -22,6 +22,7 @@
     <modules>
         <module>spring-boot</module>
         <module>spring-cloud-alibaba-nacos</module>
+        <module>spring-druid</module>
     </modules>
 
     <packaging>pom</packaging>
