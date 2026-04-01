@@ -18,11 +18,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://maven.springframework.org/milestone</url>
+        </repository>
+    </repositories>
     <modules>
         <module>spring-boot</module>
         <module>spring-cloud-alibaba-nacos</module>
         <module>spring-druid</module>
+        <module>spring-ai</module>
     </modules>
 
     <packaging>pom</packaging>
