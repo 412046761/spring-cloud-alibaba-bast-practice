@@ -1,4 +1,4 @@
-package com.qf.springai;
+package com.qf.springaialibaba;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
