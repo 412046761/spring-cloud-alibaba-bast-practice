@@ -2,12 +2,3 @@ spring:
   # 引入密钥文件
   config:
     import: optional:classpath:application-secret.yml
-
-  ai:
-    openai:
-      base-url: https://qianfan.baidubce.com/v2
-      chat:
-        options:
-          model: ernie-4.5-turbo-128k
-          temperature: 0.8
-          top_p: 0.8
